@@ -10,7 +10,8 @@ import { ProductsComponent } from './products/products.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { MaterialModule } from './common/material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { CarouselModule } from '@coreui/angular';
+
+import { FooterComponent } from './common/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,15 +19,15 @@ import { CarouselModule } from '@coreui/angular';
     HeaderComponent,
     AboutUsComponent,
     ProductsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule ,
-    CarouselModule
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

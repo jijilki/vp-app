@@ -3,18 +3,21 @@
     font-size: 23px;
     font-family: system-ui;
     line-height: 35px;
-    padding-top: 3rem;
-    padding-left: 30rem;
-    padding-right: 30rem;    
 }
 .maincaption {
-
     font-size: 46px;
     font-family: system-ui;
     line-height: 90px;
-    
 
 }
 
 
-.item{ height:600px;}
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  

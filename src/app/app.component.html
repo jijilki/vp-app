@@ -1,9 +1,10 @@
-<app-header> Hello</app-header>
-
-<main class="main">
-    
-</main>
-<app-about-us></app-about-us>
-<app-products></app-products>
-<app-contact-us></app-contact-us>
-<router-outlet></router-outlet>
+<div fxFlexFill fxLayout="column">
+    <app-header></app-header> <!--Navigation Bar-->
+    <div fxLayout="column" fxFlex>
+        <app-about-us></app-about-us>
+        <app-products></app-products>
+        <app-contact-us></app-contact-us>
+        <router-outlet></router-outlet>
+    </div>
+    <app-footer></app-footer>
+</div>

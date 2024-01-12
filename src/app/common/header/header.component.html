@@ -1,16 +1,16 @@
-<mat-toolbar color="accent" class="navbar"> 
+<mat-toolbar color="accent" class="navbar">
     <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between center">
-        <div >
+        <div>
             <span>Logo</span>
             <span mat-display-4 class="companyname">Vijay Packages</span>
         </div>
 
         <div>
-            <span>About Us</span>
-            <span>Products</span>
-            <span>Contact Us</span>
+            <a mat-button (click)="goToPart('aboutus')">About Us</a>
+            <a mat-button (click)="goToPart('products')">Products</a>
+            <a mat-button (click)="goToPart('contactus')">Contact Us</a>
         </div>
-    </mat-toolbar-row>  
+    </mat-toolbar-row>
 
 </mat-toolbar>
 

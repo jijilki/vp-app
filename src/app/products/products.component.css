@@ -14,6 +14,8 @@
 
 .example-card {
     max-width: 400px;
+    --mdc-elevated-card-container-color: rgb(247, 243, 243);
+    --mat-card-subtitle-text-color: rgb(56, 56, 66);
   }
   
   .example-header-image {
